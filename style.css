@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.board{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column{
+    width: 30%;
+    height: 400px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
